@@ -1,5 +1,17 @@
-.titles{
+/* --jet: #2d2d2aff;
+--davys-grey: #4c4c47ff;
+--cool-grey: #848fa5ff;
+--bittersweet-shimmer: #c14953ff;
+--bone: #e5dcc5ff; */
 
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #848fa5ff;
+    color: #2d2d2aff;
+}
+
+.titles{
+    font-family: Georgia, serif;
 }
 
 .pictures{
@@ -7,7 +19,7 @@
 }
 
 .main-text{
-
+    font-family: Helvetica, Arial;
 }
 
 .lists{
@@ -27,19 +39,24 @@
 }
 
 #list-index{
-
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration: none;
 }
 
 #basic-info-about-me{
-
+    font-size: 1.1em;
+    color: #4c4c47ff;
 }
 
 #list-skills{
-
+    font-size: 1.1em;
+    color: #c14953ff;
 }
 
 #link-internal{
-
+    text-decoration: none;
+    color: #e5dcc5ff;
 }
 
 #link-selfie{
@@ -47,5 +64,7 @@
 }
 
 #link-external{
-
+    color: #e5dcc5ff;
+    text-decoration: none;
+    font-size: 1.4em;
 }
