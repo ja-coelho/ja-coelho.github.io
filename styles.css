@@ -8,6 +8,15 @@ body{
     font-family: 'Segoe UI', sans-serif;
     background-color: #848fa5ff;
     color: #2d2d2aff;
+    margin: 2%;
+}
+
+div{
+    border: solid green 2px;
+}
+
+.name-pic-info{
+    text-align: center;
 }
 
 .titles{
@@ -15,15 +24,24 @@ body{
 }
 
 .pictures{
-    width: 75%;
+    /* width: 75%; */
+    background-color: #e5dcc5ff;
+    /* padding: 20px; */
+}
+
+.pic-info{
+    font-family: Helvetica, Arial;
+    display: flex;
+    /* vertical-align: middle; */
 }
 
 .main-text{
-    font-family: Helvetica, Arial;
+    padding: 2%;
 }
 
 .lists{
-
+    padding: 2%;
+    margin: 2%;
 }
 
 .links{
@@ -35,7 +53,8 @@ body{
 }
 
 #selfie{
-    width: 30%;
+    width: 46%;
+    padding: 2%;
 }
 
 #list-index{
@@ -44,9 +63,10 @@ body{
     text-decoration: none;
 }
 
-#basic-info-about-me{
+#description{
     font-size: 1.1em;
     color: #4c4c47ff;
+    width: 50%;
 }
 
 #list-skills{
@@ -54,9 +74,14 @@ body{
     color: #c14953ff;
 }
 
+ul li:nth-of-type(odd){
+    color: #9d2a33;
+}
+
 #link-internal{
     text-decoration: none;
     color: #e5dcc5ff;
+    padding: 2%;
 }
 
 #link-selfie{
@@ -67,4 +92,5 @@ body{
     color: #e5dcc5ff;
     text-decoration: none;
     font-size: 1.4em;
+    padding: 1%;
 }
